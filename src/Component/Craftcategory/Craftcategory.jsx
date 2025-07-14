@@ -6,7 +6,7 @@ const Craftcategory = () => {
     const [subcategory, setsubcategory] = useState([]);
 
     useEffect(() => {
-        fetch('/catagory.json')
+        fetch('http://localhost:5000/subcategorylist')
             .then(res => res.json())
             .then(data => {
                 setsubcategory(data)
