@@ -24,7 +24,7 @@ const Craftitem = () => {
     return (
         <div className="mb-11">
             <div className="mb-5">
-                <h1 className="text-center text-3xl md:text-5xl font-bold">Craftsmans Corner</h1>
+                <h1 className="text-center text-3xl md:text-5xl font-bold">Crafted Legacy</h1>
             </div>
             <div className="w-11/12 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4">
                 {

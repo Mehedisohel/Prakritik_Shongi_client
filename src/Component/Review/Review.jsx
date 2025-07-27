@@ -6,7 +6,7 @@ const Review = () => {
     return (
         <div className="mb-10">
             <div>
-                <h1 className="md:text-6xl text-3xl font-bold text-center">People Review</h1>
+                <h1 className="md:text-6xl text-3xl font-bold text-center">Customer Feedback</h1>
             </div>
             <div className="w-11/12 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3">
                 <div className="card w-80 bg-base-100 shadow-xl">
@@ -23,7 +23,7 @@ const Review = () => {
                 </div>
                 <div className="card w-80 bg-base-100 shadow-xl">
                     <figure className="px-10 pt-10">
-                        <img src="https://i.postimg.cc/3wgX75n9/FB-IMG-1750604409768.jpg" className="rounded-xl h-44" />
+                        <img src="https://i.postimg.cc/rw8Ft8vh/FB-IMG-1750604409768.jpg" className="rounded-xl h-44" />
                     </figure>
                     <div className="card-body items-center text-center">
                         <h2 className="card-title">Mahabubul Farhan </h2>
