@@ -3,12 +3,11 @@ import { IoStarHalfSharp } from "react-icons/io5";
 import { RiDeleteBinFill } from "react-icons/ri";
 import { FaPen } from "react-icons/fa6";
 import Swal from "sweetalert2";
-// import { useState } from "react";
+import PropTypes from "prop-types";
 
 
 const MyCraftinfo = ({ myallcrafts }) => {
     const { _id } = myallcrafts;
-    // const { myallcraft ,setmyallcraft } = useState(myallcrafts)
 
     const handledelete = (_id) => {
         Swal.fire({
@@ -21,7 +20,7 @@ const MyCraftinfo = ({ myallcrafts }) => {
             confirmButtonText: "Yes, delete it!"
         }).then((result) => {
             if (result.isConfirmed) {
-                fetch(`http://localhost:5000/craftlist/${_id}`, {
+                fetch(`https://prakritik-shongi-backend.vercel.app/craftlist/${_id}`, {
                     method: 'DELETE'
                 })
                     .then(res => res.json())
@@ -48,7 +47,7 @@ const MyCraftinfo = ({ myallcrafts }) => {
                         <h2 className="text-lg font-medium">{myallcrafts.subcategory}</h2>
                         <h1 className="text-lg">Price : {myallcrafts.price}</h1>
                         <div className="flex justify-between text-lg">
-                            <h1>{myallcrafts.customization}</h1>
+                            <h1>Customization: {myallcrafts.customization}</h1>
                             <h2 className="flex items-center gap-1">{myallcrafts.rating} <IoStarHalfSharp className="text-[#d3a873] text-xl" /></h2>
                         </div>
                         <div className="card-actions justify-end mt-2">
@@ -65,6 +64,18 @@ const MyCraftinfo = ({ myallcrafts }) => {
             </div>
         </div>
     );
+};
+
+MyCraftinfo.propTypes = {
+    myallcrafts: PropTypes.shape({
+        _id: PropTypes.string.isRequired,
+        imageurl: PropTypes.string,
+        title: PropTypes.string,
+        subcategory: PropTypes.string,
+        price: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+        customization: PropTypes.string,
+        rating: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+    }).isRequired,
 };
 
 export default MyCraftinfo;

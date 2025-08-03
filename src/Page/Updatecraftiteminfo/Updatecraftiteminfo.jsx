@@ -22,7 +22,7 @@ const Updatecraftiteminfo = () => {
 
         const updatecraft = { title, subcategory, imageurl, description, price, rating, customization, stockStatus, processingtime };
 
-        fetch(`http://localhost:5000/craftlist/${_id}`, {
+        fetch(`https://prakritik-shongi-backend.vercel.app/craftlist/${_id}`, {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'

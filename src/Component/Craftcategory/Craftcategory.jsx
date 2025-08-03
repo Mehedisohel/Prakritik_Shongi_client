@@ -6,7 +6,7 @@ const Craftcategory = () => {
     const [subcategory, setsubcategory] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/subcategorylist')
+        fetch('https://prakritik-shongi-backend.vercel.app/subcategorylist')
             .then(res => res.json())
             .then(data => {
                 setsubcategory(data)

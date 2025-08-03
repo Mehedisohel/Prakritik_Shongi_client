@@ -9,7 +9,7 @@ const Craftitem = () => {
     const [showcraft, setshowcraft] = useState(false);
 
     useEffect(() => {
-        fetch('http://localhost:5000/craftlist')
+        fetch('https://prakritik-shongi-backend.vercel.app/craftlist')
             .then(res => res.json())
             .then(data => {
                 setcraftitem(data)

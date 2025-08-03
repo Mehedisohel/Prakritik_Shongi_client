@@ -12,7 +12,7 @@ const Subcategoryitem = () => {
     const [subcategory, setsubcategory] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:5000/craftlist')
+        fetch('https://prakritik-shongi-backend.vercel.app/craftlist')
             .then(res => res.json())
             .then(data => setcraft(data));
     }, [])

@@ -36,12 +36,12 @@ const router = createBrowserRouter([
         {
           path: '/allcrafts',
           element: <PrivateRoute><AllCrafts></AllCrafts></PrivateRoute>,
-          loader: () => fetch('http://localhost:5000/craftlist')
+          loader: () => fetch('https://prakritik-shongi-backend.vercel.app/craftlist')
         },
         {
           path: '/mycrafts',
           element: <PrivateRoute><MyCrafts></MyCrafts></PrivateRoute>,
-          loader: () => fetch('http://localhost:5000/craftlist')
+          loader: () => fetch('https://prakritik-shongi-backend.vercel.app/craftlist')
         },
         {
           path: '/addcraft',
@@ -50,12 +50,12 @@ const router = createBrowserRouter([
         {
           path: '/craftdetails/:id',
           element: <PrivateRoute><Craftdetails></Craftdetails></PrivateRoute>,
-          loader: () => fetch('http://localhost:5000/craftlist')
+          loader: () => fetch('https://prakritik-shongi-backend.vercel.app/craftlist')
         },
         {
           path: '/mycrafts/updateinfo/:id',
           element: <PrivateRoute><Updatecraftiteminfo></Updatecraftiteminfo></PrivateRoute>,
-          loader: ({params}) => fetch(`http://localhost:5000/craftlist/${params.id}`)
+          loader: ({params}) => fetch(`https://prakritik-shongi-backend.vercel.app/craftlist/${params.id}`)
         },
         {
           path: '/profile',
@@ -64,7 +64,7 @@ const router = createBrowserRouter([
         {
           path: '/subcategoryitem/:id',
           element: <PrivateRoute><Subcategoryitem></Subcategoryitem></PrivateRoute>,
-          loader: ({params}) => fetch(`http://localhost:5000/subcategorylist/${params.id}`)
+          loader: ({params}) => fetch(`https://prakritik-shongi-backend.vercel.app/subcategorylist/${params.id}`)
         }
       ],
     },
