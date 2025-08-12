@@ -1,6 +1,6 @@
 # Prakritik Shongi
 
-Prakritik Shongo is a platform for artisans to showcase and manage their crafted items, featuring secure authentication and a dynamic, interactive user experience.
+Prakritik Shongi is a platform for artisans to showcase and manage their crafted items, featuring secure authentication and a dynamic, interactive user experience.
 
 ## Live Links
 
