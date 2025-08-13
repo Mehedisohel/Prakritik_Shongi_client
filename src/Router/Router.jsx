@@ -12,7 +12,7 @@ import Craftdetails from "../Page/Craftdetails/Craftdetails";
 import Updatecraftiteminfo from "../Page/Updatecraftiteminfo/Updatecraftiteminfo";
 import Profile from "../Page/Profile/Profile";
 import Subcategoryitem from "../Page/Subcategoryitem/Subcategoryitem";
-
+import Craftiteminfo from "../Component/Craftiteminfo/Craftiteminfo";
 
 
 const router = createBrowserRouter([
@@ -25,6 +25,11 @@ const router = createBrowserRouter([
             path: '/',
             element: <Home></Home>
         },
+        {
+  path: "/craftitem/:id",
+  element: <Craftiteminfo />
+},
+
         {
             path: '/login',
             element: <Login></Login>
