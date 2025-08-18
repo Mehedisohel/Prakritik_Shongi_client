@@ -38,6 +38,96 @@ Prakritik Shongi is a platform for artisans to showcase and manage their crafted
 - [React-icon](https://react-icons.github.io/react-icons/)
 - [Swiper](https://swiperjs.com/react)
 
+### frontend file structure
+├── .eslintrc.cjs
+├── .firebase
+│   └── hosting.ZGlzdA.cache
+├── .firebaserc
+├── .gitignore
+├── firebase.json
+├── index.html
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── public
+│   ├── Screenshot 2024-04-30 220039.png
+│   └── vite.svg
+├── readme.md
+├── src
+│   ├── App.css
+│   ├── App.jsx
+│   ├── Component
+│   │   ├── Banner
+│   │   │   └── Banner.jsx
+│   │   ├── CraftCard
+│   │   │   └── CraftCard.jsx
+│   │   ├── Craftcategory
+│   │   │   └── Craftcategory.jsx
+│   │   ├── Craftitem
+│   │   │   └── Craftitem.jsx
+│   │   ├── Craftiteminfo
+│   │   │   └── Craftiteminfo.jsx
+│   │   ├── Footer
+│   │   │   └── Footer.jsx
+│   │   ├── Login
+│   │   │   └── Login.jsx
+│   │   ├── MyCraftinfo
+│   │   │   └── MyCraftinfo.jsx
+│   │   ├── Navbar
+│   │   │   └── Navbar.jsx
+│   │   ├── Newslatter
+│   │   │   └── Newsletter.jsx
+│   │   ├── Register
+│   │   │   └── Register.jsx
+│   │   ├── Review
+│   │   │   └── Review.jsx
+│   │   ├── SearchBar
+│   │   │   └── SearchBar.jsx
+│   │   └── Sociallogin
+│   │       └── Sociallogin.jsx
+│   ├── Firebase
+│   │   └── firebase.config.js
+│   ├── Page
+│   │   ├── AddCraft
+│   │   │   └── AddCraft.jsx
+│   │   ├── AllCrafts
+│   │   │   └── AllCrafts.jsx
+│   │   ├── Craftdetails
+│   │   │   └── Craftdetails.jsx
+│   │   ├── Error
+│   │   │   └── Error.jsx
+│   │   ├── FirebaseProvider
+│   │   │   └── FirebaseProvider.jsx
+│   │   ├── Home
+│   │   │   └── Home.jsx
+│   │   ├── MyCrafts
+│   │   │   └── MyCrafts.jsx
+│   │   ├── PrivateRoute
+│   │   │   └── PrivateRoute.jsx
+│   │   ├── Profile
+│   │   │   └── Profile.jsx
+│   │   ├── Subcategoryitem
+│   │   │   └── Subcategoryitem.jsx
+│   │   └── Updatecraftiteminfo
+│   │       └── Updatecraftiteminfo.jsx
+│   ├── Root
+│   │   └── Root.jsx
+│   ├── Router
+│   │   └── Router.jsx
+│   ├── assets
+│   │   └── react.svg
+│   ├── index.css
+│   └── main.jsx
+├── tailwind.config.js
+└── vite.config.js
+### Backend file structure
+├── .gitignore
+├── index.js
+├── package-lock.json
+├── package.json
+└── vercel.json
+
+
 #### Instructions
 
 Install the following dependencies in your project:
