@@ -38,7 +38,7 @@ Prakritik Shongi is a platform for artisans to showcase and manage their crafted
 - [React-icon](https://react-icons.github.io/react-icons/)
 - [Swiper](https://swiperjs.com/react)
 
-### frontend file structure
+
 ### Frontend File Structure
 ├── .eslintrc.cjs
 ├── .firebase
@@ -128,6 +128,7 @@ Prakritik Shongi is a platform for artisans to showcase and manage their crafted
 ├── package-lock.json
 ├── package.json
 └── vercel.json
+
 
 #### Instructions
 
