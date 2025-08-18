@@ -40,6 +40,8 @@ Prakritik Shongi is a platform for artisans to showcase and manage their crafted
 
 
 ### Frontend File Structure
+```
+Prakritik_Shongi_client/
 ├── .eslintrc.cjs
 ├── .firebase
 │   └── hosting.ZGlzdA.cache
@@ -121,6 +123,7 @@ Prakritik Shongi is a platform for artisans to showcase and manage their crafted
 │   └── main.jsx
 ├── tailwind.config.js
 └── vite.config.js
+```
 
 ### Backend File Structure
 ├── .gitignore
