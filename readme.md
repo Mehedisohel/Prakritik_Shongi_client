@@ -39,6 +39,7 @@ Prakritik Shongi is a platform for artisans to showcase and manage their crafted
 - [Swiper](https://swiperjs.com/react)
 
 ### frontend file structure
+### Frontend File Structure
 ├── .eslintrc.cjs
 ├── .firebase
 │   └── hosting.ZGlzdA.cache
@@ -120,13 +121,13 @@ Prakritik Shongi is a platform for artisans to showcase and manage their crafted
 │   └── main.jsx
 ├── tailwind.config.js
 └── vite.config.js
-### Backend file structure
+
+### Backend File Structure
 ├── .gitignore
 ├── index.js
 ├── package-lock.json
 ├── package.json
 └── vercel.json
-
 
 #### Instructions
 
